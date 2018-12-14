@@ -1,0 +1,32 @@
+.button{
+    background-color: blueviolet;
+    position: absolute;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(228, 130, 19);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+  .button:hover {background-color: #d41620}
+  
+  .button:active {
+    background-color: #f01212;
+    box-shadow: 0 5px rgb(8, 3, 3);
+    transform: translateY(4px);
+  }
+
+
+  .score{
+      font-size: 50px;
+      color: #670bfa
+  }
+  .time{
+    font-size: 50px;
+    color: #f01212 
+  }
